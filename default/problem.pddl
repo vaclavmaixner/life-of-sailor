@@ -79,8 +79,8 @@
    )
 
    (:goal (and
-      ; (is_married)
-      (is_admiral)
+      (is_married)
+      ; (is_admiral)
       ; (is_escobar)
     ))
 )

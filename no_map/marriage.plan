@@ -1,0 +1,30 @@
+;;!domain: life-of-a-sailor
+;;!problem: inst
+
+0.00100: (work port speck)
+0.00200: (move port river)
+0.00300: (move river forest)
+0.00400: (collect-wood forest wood)
+0.00500: (move forest river)
+0.00600: (move river port)
+0.00700: (craft-dinghy wood dinghy)
+0.00800: (move port town)
+0.00900: (save-up town speck coin)
+0.01000: (invest town coin brick)
+0.01100: (move town port)
+0.01200: (move port river)
+0.01300: (move river forest)
+0.01400: (collect-flower forest flower)
+0.01500: (fight-bear forest bear bearskin)
+0.01600: (move forest river)
+0.01700: (move river port)
+0.01800: (sail port lighthouse)
+0.01900: (impress-girl lighthouse)
+0.02000: (sail lighthouse sea)
+0.02100: (collect-perl sea perl)
+0.02200: (craft-ring brick perl ring)
+0.02300: (sail sea lighthouse)
+0.02400: (marry-girl lighthouse ring flower)
+
+; Makespan: 0.024
+; Cost: 0.024

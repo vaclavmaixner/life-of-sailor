@@ -1,0 +1,31 @@
+;;!domain: life-of-a-sailor
+;;!problem: inst
+
+0.00100: (work port speck)
+0.00200: (move port town)
+0.00300: (save-up town speck coin)
+0.00400: (move town port)
+0.00500: (move port river)
+0.00600: (move river forest)
+0.00700: (collect-wood forest wood)
+0.00800: (craft-dinghy wood dinghy)
+0.00900: (collect-wood forest wood)
+0.01000: (fight-bear forest bear bearskin)
+0.01100: (move forest river)
+0.01200: (move river port)
+0.01300: (move port town)
+0.01400: (move town academy)
+0.01500: (become-captain academy coin)
+0.01600: (move academy town)
+0.01700: (rob-bank town coin)
+0.01800: (craft-caravel wood coin dinghy caravel)
+0.01900: (move town port)
+0.02000: (sail port sea)
+0.02100: (defeat-pirates sea speck coin brick dinghy frigate caravel)
+0.02200: (sail sea port)
+0.02300: (move port town)
+0.02400: (move town academy)
+0.02500: (become-admiral academy caravel)
+
+; Makespan: 0.025
+; Cost: 0.025
