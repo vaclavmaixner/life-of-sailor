@@ -16,7 +16,13 @@
       wood - wood
       flower - flower
       alcohol - alcohol
+      perl - perl
+      ring - ring
+      coconut - coconut
+      cocaine - cocaine
+
       bearskin - bearskin
+      map - map
 
       dinghy - dinghy
       frigate - frigate
@@ -27,6 +33,7 @@
       brick - brick
 
       bear - bear
+      mog - mog ; magical old geezer
 
 
 
@@ -47,18 +54,33 @@
       (yields wood forest)
       (yields flower forest)
       (yields bear forest)
-
+      (yields mog forest)
+      (yields alcohol pub)
+      (yields dinghy river)
       (yields speck river)
+      (yields perl sea)
+      (yields coconut island)
+      (yields wood island)
+      (yields cocaine island)
+
+      (offers_fight pub)
+      (offers_sobering_up river)
+      (offers_sobering_up sea)
+      (offers_work port)
+      (offers_bank town)
+      (offers_community_service town)
+      (offers_study academy)
+      (offers_pirates sea)
+      (offers_smugglers port)
+      (offers_girl lighthouse)
 
       (at port)
       (is_sober)
    )
 
    (:goal (and
-      (at lighthouse)
-      (own speck)
-      (own wood)
-      (own frigate)
-      (has_fought_bear)
+      ; (is_married)
+      (is_admiral)
+      ; (is_escobar)
     ))
 )
